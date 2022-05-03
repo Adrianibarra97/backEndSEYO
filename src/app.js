@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('cors');
+//const cors = require('cors');
 
 const bodyParser = require('body-parser'); 
 
@@ -11,7 +11,7 @@ app.set('port', process.env.PORT || 4000);
 
 
 // MIDDLEWARES:
-app.use(cors());
+//app.use(cors());
 app.use(bodyParser.json());
 
 
