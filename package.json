@@ -1,6 +1,13 @@
-{ 
+{
+  "name": "seyoapi",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "start": "node ."
+    "start": "node index.js",
+    "local": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +20,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrianibarra97/backEndSEYO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adrianibarra97/backEndSEYO/issues"
+  },
+  "homepage": "https://github.com/Adrianibarra97/backEndSEYO#readme"
 }
